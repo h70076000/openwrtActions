@@ -8,7 +8,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: Build redmi-ac2100_OpenWrt
+name: Build phicomm_k2p_OpenWrt
 
 on:
   workflow_dispatch:
@@ -33,7 +33,7 @@ env:
   REPO_URL: ${{ inputs.Repo }}
   REPO_BRANCH: ${{ inputs.Branch }}
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: rm2100.config
+  CONFIG_FILE: phicomm_k2p.config
   DIY_P1_SH: custom-1.sh
   DIY_P2_SH: custom-2.sh
   UPLOAD_BIN_TARGETS: true
